@@ -3,19 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>232양한결</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <style>
+      * {
+        font-family: 'Montserrat', sans-serif;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 60%;
+        border:15px solid gray;
+        padding: 8px;
+      }
+      h1 {
+        font-size: 80px;
+        text-align: center;
+        border-bottom: 2px solid gray;
+        border-top: 2px solid gray;
+        margin: 0;
+        padding: 25px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      #pj {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        font-size:25px;
+        margin:0;
+        padding:15px;
+      }
+    </style>
   </head>
   <body>
-    <h1><strong><u>Project</u></strong></h1>
-    <img src="w.PNG" width="30%"><br>
-    <img src="a.PNG" width="30%"><br>
-    <img src="b.PNG" width="30%">
-    <ol>
-      <li><a href="home.html">Home</li>
-      <li><a href="about.html">About me</li>
-      <li><a href="skill.html">Skill</li>
-      <li><a href="project.html">Project</li>
-      <li><a href="contact.html">Contact</li>
-    </ol>
+    <span id="pj">
+      <span><a href="home.html">Home</a></span>
+      <span><a href="about.html">About me</a></span>
+      <span><a href="skill.html">Skill</a></span>
+      <span><a href="contact.html">Contact</a></span>
+    </span>
+    <h1><a href="project.html" style="color:navy">Project</a></h1>
+    <div><img src="w.PNG"></div>
+    <div><img src="a.PNG"></div>
+    <div><img src="b.PNG"></div>
+    <div><img src="m.PNG"></div>
     <p>
             <div id="disqus_thread"></div>
       <script>

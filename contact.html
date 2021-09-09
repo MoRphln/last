@@ -3,22 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>232양한결</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <style>
+      * {
+        font-family: 'Montserrat', sans-serif;
+      }
+      a {
+        text-decoration: none;
+      }
+      #menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        border-bottom:2px solid gray;
+        font-size:25px;
+        margin:0;
+        padding:20px;
+      }
+      h1 {
+        font-size: 80px;
+        border-right:2px solid gray;
+        display:block;
+        width: 400px;
+        padding:60px;
+        margin: 10px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        text-align: center;
+      }
+      .text {
+        color:navy;
+        font-size: 45px;
+        display: grid;
+        grid-auto-rows: 1fr 1fr;
+        padding: 15px;
+      }
+    </style>
   </head>
   <body>
-    <h1><strong><u>contact</u></strong></h1>
-    <ul>
-      <li><h3>Email</h3></li>
-      <li>hangyeol1453@gmail.com</li>
-      <li><h3>Instagram</h3></li>
-      <li>Yang_Hangyeol</li>
-    </ul>
-    <ol>
-      <li><a href="home.html">Home</li>
-      <li><a href="about.html">About me</li>
-      <li><a href="skill.html">Skill</li>
-      <li><a href="project.html">Project</li>
-      <li><a href="contact.html">Contact</li>
-    </ol>
+    <span id="menu">
+      <span><a href="home.html">Home</a></span>
+      <span><a href="about.html">About Me</a></span>
+      <span><a href="skill.html">Skill</a></span>
+      <span><a href="project.html">Project</a></span>
+    </span>
+  <div id="grid">
+    <h1>Contact</h1>
+    <div class="text">
+      <div>Email</div>
+      <div>hangyeol1453@gmail.com</div>
+      <div>Instagram</div>
+      <div>Hangyeol_Yang</div>
+    </div>
+  </div>
+
     <p>
             <div id="disqus_thread"></div>
       <script>

@@ -3,25 +3,76 @@
   <head>
     <meta charset="utf-8">
     <title>232양한결</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <style>
+    * {
+      font-family: 'Montserrat', sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color:black;
+    }
+    #menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      text-align: center;
+      border-bottom:2px solid gray;
+      font-size:25px;
+      margin-bottom: 10px;
+      padding:20px;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr 2fr;
+      text-align: center;
+      margin: 0;
+    }
+    h1 {
+      font-size: 80px;
+      display: block;
+      width: 200px;
+      border-right:2px solid gray;
+      margin: 0;
+      padding: 20px;
+    }
+    ul {
+      color: navy;
+      font-size: 40px;
+      display: block;
+      width: 420px;
+      margin: 0;
+    }
+    </style>
   </head>
   <body>
-    <h1><strong><u>Skill</u></strong></h1>
-    <ul>
-      <li>3D Max</li>
-      <li>Zbrush</li>
-      <li>Substance Painter</li>
-      <li>Marmoset</li>
-      <li>Python</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <ol>
-      <li><a href="home.html">Home</li>
-      <li><a href="about.html">About me</li>
-      <li><a href="skill.html">Skill</li>
-      <li><a href="project.html">Project</li>
-      <li><a href="contact.html">Contact</li>
-    </ol>
+    <span id="menu">
+      <span><a href="home.html">Home</a></span>
+      <span><a href="about.html">About Me</a></span>
+      <span><a href="project.html">Project</a></span>
+      <span><a href="contact.html">Contact</a></span>
+    </span>
+    <div id="grid">
+      <h1>Skill</h1>
+      <div>
+        <ul>
+          <li>3D Max</li>
+          <li>Zbrush</li>
+          <li>Substance Painter</li>
+          <li>Marmoset</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+    </div>
+
+
     <p>
             <div id="disqus_thread"></div>
       <script>
